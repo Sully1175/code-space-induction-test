@@ -8,7 +8,7 @@
   
     <style>
       body {
-        background-color: #ffffff;
+        background-color: #c01f50;
       }
       .login-form {
         background-color: rgb(255, 255, 255);
@@ -18,9 +18,15 @@
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
       }
       .btn-primary {
-          background-color: #426f7c;
+          background-color: #ffffff;
+          color: #000000;
           border-color: #426f7c;   
       }
+        .btn-primary:hover {
+            background-color: #426f7c;
+            border-color: #426f7c;
+            color: #ffffff;   
+        }
     </style>
 
 </head>
@@ -63,11 +69,11 @@
 <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-3">
-<form>
+<form >
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
